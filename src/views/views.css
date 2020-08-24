@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+}
+
+.header-image {
+  max-height: 500px;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: white;
+  font-size: calc(3vmin);
+  position: absolute;
+  left: calc(100% / 2);
+  top: calc(100% / 2);
+}

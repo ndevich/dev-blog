@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app';
 import * as serviceWorker from './serviceWorker';
+import './static/fonts/Oswald/Oswald.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

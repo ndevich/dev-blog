@@ -15,15 +15,33 @@
 
 .app-header {
   background-color: #282c34;
-  height: 50px;
+  height: 80px;
   width: 100%;
   position: fixed;
   display: flex;
   flex-direction: row;
-  align-items: right;
-  justify-content: right;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  font-size: 1.7vmin;
   color: white;
+  font-family: 'Oswald', sans-serif;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.header-name {
+  text-transform: uppercase;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.header-links {
+  padding: 20px;
+}
+
+.header-links a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 
 .App-link {

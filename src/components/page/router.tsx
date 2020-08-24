@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import About from '../../views/about';
 import Home from '../../views/home';
 import Media from '../../views/media';
@@ -20,7 +20,7 @@ const Routes = () => (
       <News />
     </Route>
     <Route path="/">
-      <Home />
+      <Redirect to="/home" />
     </Route>
   </Switch>
 );
