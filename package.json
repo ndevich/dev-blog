@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://ndevich.github.io/dev-blog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -82,7 +83,9 @@
     "test": "node scripts/test.js",
     "dev:build-server": "NODE_ENV=development webpack --config config/webpack.server.js --mode=development -w",
     "dev:start": "nodemon ./server-build/index.js",
-    "dev": "rm -d -r -f server-build && npm-run-all --parallel build dev:*"
+    "dev": "rm -d -r -f server-build && npm-run-all --parallel build dev:*",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -157,6 +160,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.10.4",
     "@babel/preset-react": "7.10.4",
+    "gh-pages": "^3.1.0",
     "nodemon": "2.0.4",
     "npm-run-all": "4.1.5",
     "webpack-cli": "3.3.12",
