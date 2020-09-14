@@ -81,10 +81,12 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "prod:build-server": "NODE_ENV=productiono webpack --config config/webpack.server.js --mode=production -w",
+    "prod:start": "node ./server-build/index.js",
     "dev:build-server": "NODE_ENV=development webpack --config config/webpack.server.js --mode=development -w",
     "dev:start": "nodemon ./server-build/index.js",
     "dev": "rm -d -r -f server-build && npm-run-all --parallel build dev:*",
-    "predeploy": "npm run start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
