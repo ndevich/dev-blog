@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dev-blog/static/css/main.2255c9c8.chunk.css",
+    "main.js": "/dev-blog/static/js/main.27d4f10f.chunk.js",
+    "main.js.map": "/dev-blog/static/js/main.27d4f10f.chunk.js.map",
+    "runtime-main.js": "/dev-blog/static/js/runtime-main.7c9882e0.js",
+    "runtime-main.js.map": "/dev-blog/static/js/runtime-main.7c9882e0.js.map",
+    "static/js/2.f852a86f.chunk.js": "/dev-blog/static/js/2.f852a86f.chunk.js",
+    "static/js/2.f852a86f.chunk.js.map": "/dev-blog/static/js/2.f852a86f.chunk.js.map",
+    "index.html": "/dev-blog/index.html",
+    "precache-manifest.9b8907057cff4514a596688441fef904.js": "/dev-blog/precache-manifest.9b8907057cff4514a596688441fef904.js",
+    "service-worker.js": "/dev-blog/service-worker.js",
+    "static/css/main.2255c9c8.chunk.css.map": "/dev-blog/static/css/main.2255c9c8.chunk.css.map",
+    "static/js/2.f852a86f.chunk.js.LICENSE.txt": "/dev-blog/static/js/2.f852a86f.chunk.js.LICENSE.txt",
+    "static/media/Oswald.ttf": "/dev-blog/static/media/Oswald.a6e5446a.ttf",
+    "static/media/lorem-ipsum.png": "/dev-blog/static/media/lorem-ipsum.d0c75684.png",
+    "static/media/office.jpg": "/dev-blog/static/media/office.a604b167.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c9882e0.js",
+    "static/js/2.f852a86f.chunk.js",
+    "static/css/main.2255c9c8.chunk.css",
+    "static/js/main.27d4f10f.chunk.js"
+  ]
+}
