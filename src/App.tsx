@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './components/page/router';
 import './app.css';
 import Header from './components/header';
 import Footer from './components/footer';
 
-const App = () => (
+const App = (): ReactElement<any, string> => (
   <div className="App">
     <Router>
       <Header />

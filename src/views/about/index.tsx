@@ -7,7 +7,7 @@ import '../views.css';
 const About = (): JSX.Element => (
   <div className="header">
     <div className="header-image">
-      <img src={office} style={{ width: '100%' }} />
+      <img alt="about-header" src={office} />
     </div>
     <div className="header-text">about</div>
   </div>
